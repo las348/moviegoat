@@ -1,6 +1,9 @@
 #   Movie GOAT
 Movie Review App
 
+## Deployed site on Heroku
+[https://safe-earth-58672.herokuapp.com/](https://safe-earth-58672.herokuapp.com/)
+
 ![](public/assets/img/homepage.PNG)
 
 ## Description:
