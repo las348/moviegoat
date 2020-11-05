@@ -1,7 +1,7 @@
 #   Movie GOAT
 Movie Review App
 
-![](public/assets/img/homepage.png)
+![](public/assets/img/homepage.PNG)
 
 ## Description:
 Movie review website that allows users to add, edit, and view reviews. Users can watch recommended movie trailers or search for a movie of their choice to see reviews posted by other users.
