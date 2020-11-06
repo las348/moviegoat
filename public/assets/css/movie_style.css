@@ -3,12 +3,11 @@ body {
     font-family: 'Lora', serif;
 }
 .jumbotron {
-    background-image: url("../img/yulia-khlebnikova-KWBTG1e5u70-unsplash.jpg");
+    background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
-    border-bottom: double orchid 10px;
 }
 
 .fa-search {
@@ -17,15 +16,11 @@ body {
 }
 
 h1, h2 {
-  margin: 50px 0 50px 0;
+    margin-bottom: 30px;
 }
 
 h2 {
-   font-size: 50px;
-   font-weight: bolder;
-   background: -webkit-linear-gradient(orchid, #31a4eb);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    text-decoration: underline;
 }
 
 #indexLogo {
@@ -102,12 +97,11 @@ margin-bottom: 20px;
 
 /*Footer*/
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     padding-bottom: 20px;
     bottom: 0;  
     z-index: 100; 
-    border-top: double orchid;
 } 
 
 .fa-facebook-f,
