@@ -20,8 +20,12 @@ h1, h2 {
 }
 
 h2 {
-    text-decoration: underline;
-}
+    font-size: 50px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(black, #31a4eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } 
 
 #indexLogo {
     text-decoration: none;
@@ -72,7 +76,7 @@ h2 {
       color: white;
       text-decoration: none;
   }
-  
+
 .search-history {
     margin: 20px 0 20px 0;
 }
