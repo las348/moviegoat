@@ -72,8 +72,9 @@ h2 {
       color: white;
       text-decoration: none;
   }
+  
 .search-history {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .historyMovies{
@@ -96,12 +97,24 @@ margin-bottom: 20px;
 }
 
 /*Footer*/
-footer {
-    margin-top: 50px;
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer { 
+    border-top: double black; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
     text-align: center;
-    padding-bottom: 20px;
-    bottom: 0;  
-    z-index: 100; 
 } 
 
 .fa-facebook-f,
@@ -141,7 +154,7 @@ footer {
   }
 
   .footer-copyright {
-      margin-top: 15px;
+      padding-bottom: 30px;
   }
 
 /* review page*/
