@@ -60,7 +60,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Add Review</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -90,51 +90,54 @@
         </div>
     </div>
 
-    <!-- Review -->
-    <div class="container review">
-        <div class="row">
-            <div class="col-md">
-                <h2>Reviews</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <p id="movieTitle"></p>
-                <img id="reviewImg">
-                <br>
-            </div>
-
-            <div class="col-md-8 reviewList">
-                <div class="card mb-2 reviewCard displayNone">
-                    <div class="card-body ">
-                        <h5 class="reviewTitle"></h5>
-                        <p class="userName"></p>
-                        <p class="reviewText"></p>
-                        <button type="button" class="btn fa fa-thumbs-up"></button>
-                        <span class="count"></span>
-                        <button type="button" class="btn fa fa-thumbs-down"></button>
-                        <button type="button" class="btn btn-dark editReview">Edit Review</button>
-                        <button type="button" class="btn btn-danger deleteReview">Delete</button>
+    <div id="page-container">
+        <div id="content-wrap">
+            <!-- Review -->
+            <div class="container review">
+                <div class="row">
+                    <div class="col-md">
+                        <h2>Reviews</h2>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p id="movieTitle"></p>
+                        <img id="reviewImg">
+                        <br>
+                    </div>
 
+                    <div class="col-md-8 reviewList">
+                        <div class="card mb-2 reviewCard displayNone">
+                            <div class="card-body ">
+                                <h5 class="reviewTitle"></h5>
+                                <p class="userName"></p>
+                                <p class="reviewText"></p>
+                                <button type="button" class="btn fa fa-thumbs-up"></button>
+                                <span class="count"></span>
+                                <button type="button" class="btn fa fa-thumbs-down"></button>
+                                <button type="button" class="btn btn-dark editReview">Edit Review</button>
+                                <button type="button" class="btn btn-danger deleteReview">Delete</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
+        
+        <footer class="page-footer font-small special-color-dark pt-4">
+            <div class="container">
+                <a href="#" class="fa fa-facebook-f"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+
+            <div class="footer-copyright">&#169; 2020 Copyright Laureni Wilkinson-S&aacute;nchez, Delinger
+                Rodriguez, Daniel Fellner, Sandesh
+                Menjoge</a>
+            </div>
+        </footer>
     </div>
-
-    <footer class="page-footer font-small special-color-dark pt-4">
-        <div class="container">
-            <a href="#" class="fa fa-facebook-f"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-        </div>
-
-        <div class="footer-copyright">&#169; 2020 Copyright Laureni Wilkinson-S&aacute;nchez, Delinger
-            Rodriguez, Daniel Fellner, Sandesh
-            Menjoge</a>
-        </div>
-    </footer>
-
 
     <script src="./assets/js/reviews.js" type="text/javascript"></script>
 </body>
